@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+    <button>1asdfsdafdd11</button>
+    <!-- You can also require other files to run in this process -->
+    <script>
+      $('button').click(function(){
+        alert('aa');
+      });
+    </script>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
